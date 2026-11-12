@@ -1,2 +1,2 @@
-# vehicle-detection-cnn
-University of San Diego MS-AAI, AAI-521 Applied Computer Vision for AI final project.
+# Vehicle Detection in Road Images Using Deep Learning.
+This project develops and evaluates a computer vision system that detects vehicles in road images using object detection models, then compares multiple modeling approaches to determine which performs best. Accurate vehicle detection in roadway images is a key component of intelligent transportation systems, traffic monitoring, and autonomous driving. Manual identification and counting of vehicles is inefficient and difficult to scale. This project will use computer vision to automatically locate vehicles in road images by predicting bounding boxes around them.
