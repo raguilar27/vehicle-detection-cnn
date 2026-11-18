@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
+
+# Datasets
+data/
+datasets/
+kitti/
+
+# Model weights and training outputs
+*.pt
+*.pth
+*.onnx
+runs/
+weights/
+
+# Generated results
+results/*
+!results/.gitkeep
+
+# Report artifacts generated during analysis
+report/*.pdf
+
+# Environment/secrets
+.env
+*.env
