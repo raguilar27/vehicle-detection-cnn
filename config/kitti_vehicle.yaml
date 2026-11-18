@@ -1,0 +1,12 @@
+# Dataset configuration for the project-specific KITTI vehicle subset.
+# Paths will be updated after the reproducible train/validation/test split is created.
+
+path: ../data/kitti_vehicle
+train: images/train
+val: images/val
+test: images/test
+
+names:
+  0: car
+  1: van
+  2: truck
