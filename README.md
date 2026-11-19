@@ -4,13 +4,14 @@ This project develops and evaluates a computer vision system for detecting vehic
 
 ## Project Objective
 
-The goal is to determine how effectively a YOLO-based object detector can identify vehicles in road scenes and how preprocessing, augmentation, and fine-tuning affect model performance.
+The goal is to determine how effectively a YOLO based object detector can identify vehicles in road scenes and how preprocessing, augmentation, and fine-tuning affect model performance.
 
 ## Dataset
 
-The project uses the KITTI 2D Object Detection dataset. The labeled dataset contains 7,481 roadway images with object annotations. For this project, the labeled images will be divided into training, validation, and held-out test sets so that model performance can be evaluated consistently.
+The project uses the KITTI 2D Object Detection dataset. The labeled dataset contains 7,481 roadway images with object annotations. For this project, the labeled images will be divided into training, validation, and held out test sets so that model performance can be evaluated consistently.
 
 Primary vehicle classes:
+
 - Car
 - Van
 - Truck
@@ -31,6 +32,7 @@ Primary vehicle classes:
 ## Planned EDA
 
 The exploratory data analysis will examine:
+
 - image dimensions and aspect ratios
 - class distribution
 - number of objects per image
@@ -45,11 +47,10 @@ The exploratory data analysis will examine:
 ## Evaluation Metrics
 
 The project will evaluate object detection performance using:
+
 - Precision
 - Recall
 - F1-score
-- mAP@0.5
-- mAP@0.5:0.95
 
 ## Repository Structure
 
@@ -73,8 +74,4 @@ vehicle-detection-cnn/
 
 ## Environment
 
-The primary development environment is Google Colab with Python. Training will use Ultralytics YOLO with PyTorch.
-
-## Notes
-
-The KITTI images, trained model weights, and generated experiment outputs are not committed to this repository because they are large files. The notebook and scripts will document how to reproduce the dataset preparation, training, and evaluation workflow.
+The primary development environment is Python. Training will use Ultralytics YOLO.
